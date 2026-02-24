@@ -1,0 +1,24 @@
+// Template pour un item de préfabriqué dans la liste
+// $C = "../Common.ui";
+
+Group {
+    Anchor: (Height: 50, Horizontal: 0);
+    Background: #1a2430;
+    LayoutMode: Left;
+    Padding: (Horizontal: 15);
+    
+    Label #PrefabName {
+        Text: "Nom du Préfabriqué";
+        FlexWeight: 1;
+        Style: (FontSize: 18, TextColor: #bfcdd5, VerticalAlignment: Center);
+    }
+
+    Group {
+        LayoutMode: Center;
+        Anchor: (Width: 100, Top: 0, Bottom: 0);
+        TextButton #SelectButton {
+            Text: "Choisir";
+            Anchor: (Width: 100, Height: 36);
+        }
+    }
+}

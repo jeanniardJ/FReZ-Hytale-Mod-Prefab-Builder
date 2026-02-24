@@ -1,0 +1,6 @@
+[submodule "hytale_docs"]
+	path = hytale_docs
+	url = https://github.com/jeanniardJ/FReZ-Hytale-mod-Docs.git
+[submodule "libs/Hytale-Server-Unpacked"]
+	path = libs/Hytale-Server-Unpacked
+	url = https://github.com/jeanniardJ/Hytale-Server-Unpacked.git

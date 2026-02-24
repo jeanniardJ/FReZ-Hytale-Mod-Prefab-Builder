@@ -1,0 +1,44 @@
+// Page de sélection de préfabriqué pour Prefab Builder
+// $C = "../Common.ui";
+
+Group {
+    Anchor: (Width: 500, Height: 600);
+    Background: #141c26(0.95);
+    LayoutMode: Top;
+    Padding: (Full: 20);
+
+    Label #Title {
+        Text: "Sélectionner un Préfabriqué";
+        Anchor: (Height: 40);
+        Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Center);
+    }
+
+    Group { Anchor: (Height: 20); } // Spacer
+
+    Group #ScrollContainer {
+        FlexWeight: 1;
+        LayoutMode: TopScrolling;
+        ScrollbarStyle: (
+            Spacing: 4,
+            Size: 4,
+            Handle: #ffffff(0.2)
+        );
+        
+        Group #PrefabList {
+            LayoutMode: Top;
+            Padding: (Full: 10);
+            // Les items seront ajoutés dynamiquement ici
+        }
+    }
+
+    Group { Anchor: (Height: 20); } // Spacer
+
+    Group {
+        LayoutMode: Center;
+        Anchor: (Height: 44, Horizontal: 0);
+        TextButton #CloseButton {
+            Text: "Fermer";
+            Anchor: (Height: 44, Width: 200);
+        }
+    }
+}

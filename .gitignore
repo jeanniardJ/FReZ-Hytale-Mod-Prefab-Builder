@@ -61,3 +61,6 @@ desktop.ini
 # Template specific
 libs/HytaleServer.jar
 buildSrc/
+
+# Gemini
+.gemini/

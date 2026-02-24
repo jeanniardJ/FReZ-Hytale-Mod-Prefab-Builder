@@ -1,22 +1,14 @@
 {
-    "Group": "Example",
-    "Name": "ExamplePlugin",
+    "Group": "com.jjeanniard.plugins",
+    "Name": "FReZ-Hytale-Mod-Prefab-Builder",
     "Version": "0.0.2",
-    "Description": "An example plugin for HyTale!",
+    "Description": "Automated prefab construction with holographic previews and resource-based progression.",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "Jonas"
         }
     ],
-    "Website": "example.org",
-    "ServerVersion": "2026.02.17-255364b8e",
-    "Dependencies": {
-        
-    },
-    "OptionalDependencies": {
-        
-    },
-    "DisabledByDefault": false,
-    "Main": "org.example.plugin.ExamplePlugin",
+    "Website": "https://github.com/jeanniardJ/FReZ-Hytale-Mod-Prefab-Builder",
+    "Main": "com.jjeanniard.plugins.prefab_builder.PrefabBuilderPlugin",
     "IncludesAssetPack": true
 }

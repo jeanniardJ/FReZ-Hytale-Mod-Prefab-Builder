@@ -1,0 +1,14 @@
+{
+  "id": "prefab_builder:builder_block",
+  "baseBlock": "hytale:technical_block",
+  "translationProperties": {
+    "name": "Bloc de Chantier",
+    "description": "Posez ce bloc pour démarrer une construction automatique."
+  },
+  "categories": [
+    "Admin"
+  ],
+  "item": {
+    "icon": "hytale:technical_block"
+  }
+}
